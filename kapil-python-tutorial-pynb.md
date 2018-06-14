@@ -78,7 +78,7 @@ lets have a quick look how to use these data types in below examples.
 
 
 
-1. Number : this include integers and floats
+1. **Number** : this include integers and floats
 
    ```
       # Integer data type  
@@ -100,24 +100,81 @@ lets have a quick look how to use these data types in below examples.
       print(type (y))
 
       print (y, (y+2), (y*2), (y/2), (y**2))
-
-
    ```
 
-   Note: Python does not support unary increment and decrement operators (x++, ++x, x-- etc)
 
-2. Boolean: Python uses English words (or, and, not) rather than symbols for Boolean logic (||, &&, !)
-
-   ```
-   EIP = True
-   MLBLR = False
-
-   print (type(EIP))
-
-   print (EIP or MLBLR)
-   print (not MLBLR)
-   print (EIP and MLBLR) 
-   print (EIP != MLBLR)
-   ```
-
+      Note: Python does not support unary increment and decrement operators (x++, ++x, x-- etc)
    ​
+
+2. **Boolean**: Python uses English words (or, and, not) rather than symbols for Boolean logic (||, &&, !)
+
+```
+       EIP = True
+       MLBLR = False
+
+       print (type(EIP))
+
+       print (EIP or MLBLR)
+       print (not MLBLR)
+       print (EIP and MLBLR) 
+       print (EIP != MLBLR)
+```
+
+- **String**: Python has great support for strings 
+
+   ```
+   
+   hello = 'Hello Dear'
+   world = 'Kapil'
+   print(type(hello))
+   print(hello)
+   print(len(world))
+   concatenation = hello + ' ' + world
+   print(concatenation)  #concatenation
+   ```
+   string object have bunch of useful methods 
+
+   ```
+   h = "stringobject"
+   s = 'string object'
+   
+   print(s)
+   print(h)
+   
+   #string object useful methodes 
+   print(s.capitalize())
+   print(s.upper())
+   print(s.center(50))
+   print(s.replace('string', '(replace)' ))
+   ```
+
+   
+
+   ### Containers 
+
+   Python includes several built-in containers types: lists, dictionaries, sets and tuples   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
